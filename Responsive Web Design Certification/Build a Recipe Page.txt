@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chocolate cookies</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Chocolate cookies</h1>
+  <p>A recipe for chocolate cookies</p>
+  <h2>Ingredients</h2>
+    <ul>
+      <li>100g butter (at room temperature)</li>
+      <li>100g sugar (white or brown)</li>
+      <li>1 egg</li>
+      <li>1 tsp vanilla extract (optional)</li>
+      <li>180g all-purpose flour</li>
+      <li>1/2 tsp baking powder</li>
+      <li>1 pinch of salt</li>
+      <li>100g chocolate chips or chunks</li>
+    </ul>
+  <h2>Instructions</h2>
+    <ol>
+      <li>Preheat the oven to 180°C (350°F).</li>
+      <li>In a bowl, cream together the butter and sugar until light and fluffy.</li>
+      <li>Add the egg and vanilla extract and mix well.</li>
+      <li>Add the flour, baking powder, and salt. Mix until just combined.</li>
+      <li>Shape the dough into small balls and place them on a baking sheet lined with parchment paper, leaving space between them.</li>
+      <li>Flatten them slightly with your hand or a fork.</li>
+      <li>Bake for 10–12 minutes, or until the edges are golden brown.</li>
+    </ol>
+  <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="Chocolate cookies">
+</body>
+</html>

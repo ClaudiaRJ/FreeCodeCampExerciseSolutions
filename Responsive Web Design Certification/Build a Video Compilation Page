@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+<body>
+    <main>
+        <h1>Video Compilation</h1>
+        <p>This is just a compilation of YT videos</p>
+        <section>
+            <h2>Map Method</h2>
+            <p>What is the map method and how does it work?</p>
+            <iframe
+                src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+                title="How to train your dragon"
+                width="560"
+                height="360"
+            ></iframe>
+        </section>
+        <section>
+            <h2>Map Method</h2>
+            <p>What is the map method and how does it work?</p>
+            <iframe
+                src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+                title="2025 Fails Compilation"
+                width="560"
+                height="360"
+            /></iframe>
+        </section>
+        <section>
+            <h2>Map Method</h2>
+            <p>What is the map method and how does it work?</p>
+            <iframe
+                src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+                title="How to train your dragon"
+                width="560"
+                height="360"
+            ></iframe>
+        </section>
+    </main>
+</body>
+
+</html>

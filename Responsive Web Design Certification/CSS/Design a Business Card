@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="business-card">
+        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="flower">
+        <p class="full-name">Claudia</p>
+        <p class="designation">Designation</p>
+        <p class="company">Company</p>
+        <hr>
+        <p class="email">claudia.reche.jimenez05@gmail.com</p>
+        <p class="phone">676780012</p>
+        <a href="https://www.freecodecamp.org" class="portfolio-link">Portfolio</a>
+        <hr>
+        <div class="social-media">
+            <a href="https://x.com/home">Twitter</a>
+            <a href="https://www.linkedin.com/in/claudia-reche-712768378/">LinkedIn</a>
+            <a href="https://github.com/ClaudiaRJ">GitHub</a>
+            <h2>Connect with me</h2>
+    </div>
+    </div>
+</body>
+</html>
+
+body{
+background-color:rosybrown;
+  font-family:Arial, sans-serif;
+}
+
+
+.business-card{
+  width:300px;
+background-color:rgb(242, 218, 218);
+  padding:20px;
+  margin-top:100px;
+text-align:center;
+  font-size:16px;
+  margin-left:auto;
+margin-right:auto;
+}
+
+
+.profile-image{
+  max-width:100%;
+}
+
+
+p{
+  margin:5px;
+}
+
+
+a{
+  text-decoration:none;
+}
+

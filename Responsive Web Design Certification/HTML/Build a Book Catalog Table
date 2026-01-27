@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+<body>
+</body>
+  <table>
+    <caption>Book Catalog</caption>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Lord of the Rings</td>
+        <td>J.R.R Tolkien</td>
+        <td>Fantasy</td>
+        <td>1954</td>
+      </tr>
+      <tr>
+        <td>The Sword ofDestiny (The Witcher)</td>
+        <td>Andrzej Sapkowski</td>
+        <td>Fantasy</td>
+        <td>1993</td>
+      </tr>
+      <tr>
+        <td>Harry Potter</td>
+        <td>Jk Rowling</td>
+        <td>Fantasy</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Game of Thrones</td>
+        <td>George R. R. Martin</td>
+        <td>Fantasy</td>
+        <td>1996</td>
+      </tr>
+      <tr>
+        <td>Name of the Wind</td>
+        <td>Patrick Rothfuss</td>
+        <td>Fantasy</td>
+        <td>2007</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</html>

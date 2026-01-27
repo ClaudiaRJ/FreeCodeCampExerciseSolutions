@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a Survey Form</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal information</legend>
+        <label id="name-label" for="name">Name (required):</label>
+        <input type="text" id="name" name="name" placeholder="e.g., John Doe" required size="20">
+        <label id="email-label" for="email">Email (required):</label>
+        <input required id="email" type="email" name="email" placeholder="e.g, random@email.com" size="20">
+        <label id="number-label" for="number">Age (optional):</label>
+        <input id="number" type="number" name="number" min="3" max="100" placeholder="eg. 20">  
+      </fieldset>
+      <fieldset>
+      <legend>How was the overall experience?</legend>
+      <select id="dropdown">
+            <option value="poor">Poor</option>
+            <option value="satisfactory">Satisfactory</option>
+            <option value="good">Good</option>
+            <option value="very-good">Very Good</option>
+            <option selected value="excellent">Excellent</option>
+      </select>
+      </fieldset>
+      <fieldset>
+        <legend>Was this your first time?</legend>
+        <label id="yes-option" for="yes-option">Yes</label>
+        <input type="radio" id="yes-option" name="enjoyment" value="yes">
+        <label id="no-option" for="no-option">No</label>
+        <input type="radio" id="no-option" name="enjoyment" value="no">
+      </fieldset>
+      <fieldset>
+        <legend>How did you find us?</legend>
+        <label id="ads" for="ads">Social Media</label>
+        <input type="checkbox" id="ads" value="ads">
+        <label id="recommendation" for="recommendation">Recommendation</label>
+        <input type="checkbox" id="recommendation" value="recommendation">
+        <label id="other" for="other">Other</label>
+        <input type="checkbox" id="other" value="other">
+      </fieldset>
+      <fieldset>
+        <legend>Comments</legend>
+        <label ="comments">Other Comments?</label>
+        <textarea id="comments" row="20" col="30"></textarea>
+        <button type="submit" id="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

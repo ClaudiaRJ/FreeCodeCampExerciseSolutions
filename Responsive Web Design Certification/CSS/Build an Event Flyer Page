@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg"/>
+      <h1>Event</h1>
+    </header>
+    <main>
+      <hr>
+      <section>
+        <h2>Activity1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur saepe dolorem adipisci ipsam blanditiis, tenetur animi vel porro ullam, explicabo dolore cupiditate labore ducimus qui! Minus alias magnam rerum atque?</p>
+      </section>
+      <hr>
+      <section>
+          <h2>Activity2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur saepe dolorem adipisci ipsam blanditiis, tenetur animi vel porro ullam, explicabo dolore cupiditate labore ducimus qui! Minus alias magnam rerum atque?</p>
+      </section>
+        <hr>
+  </main>
+</body>
+
+
+</html>
+
+body{
+  padding-bottom:50px;
+  padding-top:50px;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:auto;
+  margin-right:auto;
+  width:100vw;
+  min-height:calc(100vh - 100px);
+}
+
+
+hr, section{
+  width: 100%;
+}

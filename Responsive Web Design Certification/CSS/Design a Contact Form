@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h2>Contact Form</h2>
+            <fieldset>
+                <label for="name">
+                    Enter Your First Name:
+                    <input type="text"id="name" name="name" required placeholder="E.g, Jane Doe"/>
+                </label>
+                <label for="email">
+                    Enter Your Email:
+                    <input type="email" id="email" required placeholder="E.g, thisisanemail@gmail.com" name="email"/>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="message">Write the message</label>
+                <textarea id="message" name="message" required></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+.form-container{
+   background-color: #dddddd;
+  border-radius:5px;
+  padding:5px 5px;
+  width:auto;
+}
+
+label{
+  margin:4px;
+  color:black;
+}
+
+input{
+  width:500px;
+  padding:4px;
+  margin-bottom:5px;
+}
+
+textarea{
+  width:500px;
+  padding:5px;
+  margin-bottom:70px;
+}
+
+button{
+  background-color:#9c9b9b;
+  color:white;
+  font-size:20px;
+}
+
+button:hover{
+  background-color:black;
+}
